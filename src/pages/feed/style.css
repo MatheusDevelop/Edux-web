@@ -1,0 +1,97 @@
+.big-post{
+    min-height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.post{
+    min-width: 250px;
+    height:240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bg-post{
+    background: linear-gradient(transparent,rgba(34, 26, 37, 0.753));
+    padding:60px 20px;
+    color: white;
+}
+.feed .col-lg-7,.feed col-lg,col{
+    padding-right:0px!important;
+    padding-left:0px!important;
+}
+.post-autor{
+    opacity: .7;
+}
+.post-bigtitle{
+    font-size: 36px;
+    font-weight: bold;
+    color: #440381;
+}
+.bg-purple{
+    background-color:#440381;
+}
+.border-purple{
+    border:3px solid #4403811e;
+}
+.post-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.title-ranking{
+    font-size: 24px;
+    color: #440381;
+}
+.ranking{
+    height:100vh;
+    right:0;
+    top:0;
+    width:350px;
+}
+.rank-user{
+    width:100%;
+    height:60px;
+}
+.rank-name{
+    color: #440381;
+}
+@media (max-width: 600px)
+{
+  .ranking
+   {
+    display: none;
+   }
+}
+
+
+
+.segredo-box{
+    width:250px;
+    height:250px;
+    position: fixed;
+    bottom: -200px;
+    right:-90px;
+    z-index: 99;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+.segredo-box img{
+    width:250px;
+    height:250px;
+    animation: animateSegredo 6s ease-out infinite;
+}
+
+@keyframes animateSegredo{
+    0%
+    {transform: rotate(50deg);}
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(50deg); 
+    }
+}
+.segredo-box:hover{
+    bottom:90px;
+    right:90px; 
+}

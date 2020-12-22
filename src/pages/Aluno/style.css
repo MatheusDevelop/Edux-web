@@ -1,0 +1,53 @@
+.slidein{
+    animation: slide .8s ease-out;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 0;        
+        transform: translateX(-60vw);
+    }
+    70%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0vw);
+    }
+}
+.slideout{
+    animation: slideOut .8s ease-out;
+}
+@keyframes slideOut{
+    0%{
+        opacity: 1;        
+        transform: translateX(0vw);
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;        
+        transform: translateX(-100vw);
+    }
+}
+
+.toggle{
+    animation:fadeout 3s linear;
+    display: none;
+}
+@keyframes fadeout{    
+    0%{
+        display: none;
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+    
+    
+}
