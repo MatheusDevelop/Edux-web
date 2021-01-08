@@ -1,4 +1,7 @@
 <h1>Projeto de fechamento de sprint usado para estudo de Front-end</h1>
+<h2>API DO PROJETO:</h2>
+https://github.com/MatheusDevelop/Edux-api
+  
 
 ![Captura de Tela (124)](https://user-images.githubusercontent.com/48391086/103958753-91b68180-512c-11eb-93a2-2dc8ee324625.png)
 <br/>
