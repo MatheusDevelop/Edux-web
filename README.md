@@ -1,4 +1,4 @@
-<h1>Projeto de fechamento de sprint usado para estudo de Front-end</h1>
+<h1>Projeto de fechamento de sprint SENAI usado para estudo de Front-end</h1>
 <h2>API DO PROJETO:</h2>
 https://github.com/MatheusDevelop/Edux-api
   
